@@ -1,0 +1,42 @@
+.sticker {
+    height: 200px;
+    width: 300px;
+    box-shadow: 0px 0px 4px 1px #d3d3d3;
+    border-radius: 8px;
+    border-bottom: solid 30px red;
+    font-family: Arial;
+    align-content: center;
+    text-align: center;
+
+    .header {
+        background-color: red;
+        border: solid red;
+        color: white;
+        border-radius: 8px 8px 0px 0px;
+
+        .top-row {
+            margin-top: 5px;
+            margin-bottom: 0px;
+            font-size: 48px;
+        }
+        
+        .bottom-row {
+            margin: 0;
+            font-size: 18px;
+        }
+    }
+
+    .title {
+        font-family: Courier;
+        font-size: 36px;
+        color: #333333;
+    }
+}
+
+// mobile styles
+
+@media only screen and (max-width: 600px) {
+    .sticker {
+        width: 100%;
+    }
+}
