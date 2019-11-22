@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { SkipLinkComponent } from './skip-link/skip-link.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToggleComponent
+    ToggleComponent,
+    SkipLinkComponent
   ],
   imports: [
     BrowserModule,
