@@ -1,11 +1,12 @@
 .wrapper {
-    background-color: gold;
+    background: linear-gradient(170deg, gold, white, gold);
     font-family: arial;
-    align-content: center;
     width: 500px;
+    border-radius: 10px;
 
     .inner {
         padding: 20px;
+        text-align: center;
 
         h1{
             margin: 0px;
